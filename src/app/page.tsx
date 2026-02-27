@@ -1,10 +1,9 @@
 "use client";
 
 import  { useState } from 'react';
-import { Shuffle, Moon, Globe, User } from 'lucide-react';
+import { Shuffle } from 'lucide-react';
 import { Anton } from 'next/font/google';
 import BlobCursor from '../components/BlobCursor';
-
 import SpiderDrop from '../components/SpiderDrob';
 
 
