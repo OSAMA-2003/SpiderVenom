@@ -56,12 +56,12 @@ export default function HeroSection() {
       <div className="relative z-20 w-full h-full flex flex-col justify-center px-5 pointer-events-none">
         <div className="pointer-events-auto max-w-2xl space-y-4">
           <div className={`flex flex-col leading-[0.8] tracking-tighter ${current.titleColor} transition-colors duration-500 drop-shadow-2xl`}>
-            <span className="text-8xl uppercase">The</span>
-            <span className="text-9xl uppercase">Rivalry</span>
+            <span className="text-6xl md:text-8xl uppercase">The</span>
+            <span className="text-5xl md:text-9xl uppercase">Rivalry</span>
           </div>
           <div className="flex gap-4 mt-8 max-w-md mix-blend-difference">
             <div className="w-1 bg-[#E62429] h-auto"></div>
-            <p className="font-sans capitalize text-md font-medium leading-relaxed text-gray-500">
+            <p className="font-sans capitalize text-sm font-medium leading-relaxed text-gray-500">
               Spider-Man and Venom is one of the most iconic in comic book history, characterized by intense battles, complex character dynamics            </p>
           </div>
         </div>

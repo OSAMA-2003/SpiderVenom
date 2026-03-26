@@ -7,7 +7,7 @@ interface BlobCursorProps {
   hiddenBg: string;
 }
 
-const BLOB_SIZE = 350;
+const BLOB_SIZE = 300;
 
 export default function BlobCursor({ hiddenBg }: BlobCursorProps) {
   const mouseX = useMotionValue(0);
